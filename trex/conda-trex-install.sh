@@ -1,0 +1,1 @@
+conda create -n tracking -c trexing trex
