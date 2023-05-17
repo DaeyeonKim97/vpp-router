@@ -1,0 +1,3 @@
+set interface state GigabitEthernet0/4/0 up
+set interface ip address GigabitEthernet0/4/0 10.1.2.69/24
+ip route add 0.0.0.0/0 via 10.1.2.1 GigabitEthernet0/4/0
